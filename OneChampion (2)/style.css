@@ -1,0 +1,100 @@
+#groupeA img, #groupeB img{
+  height: 7vw;
+}
+body{
+  background-color: #091442;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  margin: 0px;
+}
+
+/* Header et Nav */
+header img {
+  width: 7vw;
+}
+#image-header-logo{
+  display: flex;
+  justify-content: center;
+}
+header{
+  background-image: linear-gradient(180deg, #3562A6, #091442);
+  height: 17vh;
+}
+header nav a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 1000;
+  transition: 0.7s ease-out 1ms
+}
+header nav a:hover{
+  transform: scale(1.1);
+  color: #6594C0;
+}
+header nav{
+  display: flex;
+  justify-content: center;
+}
+#contact{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+/* Main */
+main{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:55vw;
+  margin-left: 23vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+main img{
+  margin-right: 0.5vw;
+  margin-bottom: 1vh;
+}
+
+/* Rencontres */
+#vs{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#groupeA{
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#groupeA article div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+#groupeA p{
+  font-size: 30px;
+  font-weight: 800;
+}
+#groupeA {
+    display: none;
+}
+#groupeB{
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#groupeB article div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+#groupeB p{
+  font-size: 30px;
+  font-weight: 800;
+}
+/*#groupeB {
+    display: none;
+}*/

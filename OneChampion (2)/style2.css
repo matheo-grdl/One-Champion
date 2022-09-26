@@ -1,0 +1,69 @@
+body{
+  background-color: #091442;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  margin: 0px;
+}
+
+/* Header et Nav */
+header img {
+  width: 7vw;
+}
+#image-header-logo{
+  display: flex;
+  justify-content: center;
+}
+header{
+  background-image: linear-gradient(180deg, #3562A6, #091442);
+  height: 17vh;
+}
+header nav a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 1000;
+  transition: 0.8s ease-out 2ms
+}
+header nav a:hover{
+  transform: scale(1.1);
+  color: #6594C0;
+}
+header nav{
+  display: flex;
+  justify-content: center;
+}
+#contact{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+main form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 38vw;
+  max-width: 22vw;
+  margin-top: 15vh;
+  font-size: 40px;
+  border: solid 3px black;
+  border-radius: 1rem;
+  background-color: #f5f0f0;
+  color: black;
+  padding: 5vh;
+
+}
+main form label{
+  margin-top:1vh;
+  margin-bottom: 1vh;
+}
+main form input{
+  height: 2vh;
+  border-radius: 2rem;
+}
+main form button{
+  margin-top: 3vh;
+  height: 5vh;
+  color: blue;
+  border-radius: 1rem;
+}
+#Message{
+  height: 5vh;
+}
